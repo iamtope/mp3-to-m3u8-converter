@@ -1,0 +1,23 @@
+{
+  "name": "hls",
+  "version": "1.0.0",
+  "description": "a simple web app to convert mp3 to .m3u8 file using hls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon"
+  },
+  "author": "Abass Adamo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "mkdirp": "^1.0.4",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+  }
+}
